@@ -17,7 +17,7 @@ margin: 40px auto;
   text-align: center;
   box-shadow: var(--main-shadow);
   border-radius: 10px;
-  background-color: #bbff00;
+  background-color: navy;
   `;
 
   export const Wrapper = styled.div`
