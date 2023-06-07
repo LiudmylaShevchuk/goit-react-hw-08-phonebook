@@ -17,6 +17,7 @@ margin: 40px auto;
   text-align: center;
   box-shadow: var(--main-shadow);
   border-radius: 10px;
+  background-color: #bbff00;
   `;
 
   export const Wrapper = styled.div`
@@ -52,4 +53,5 @@ margin-bottom: 20px;
   line-height: 1.8;
   color: rgba(47, 47, 47, 0.6);
 `;
+
 
