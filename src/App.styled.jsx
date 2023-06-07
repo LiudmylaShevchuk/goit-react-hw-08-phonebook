@@ -29,7 +29,7 @@ export const Title = styled.h1`
  margin-bottom: 20px;
   padding: 5px;
   font-size: 44px;
-  color: var(--primary);
+  color: #FFE4B5;
   text-shadow: var(--main-shadow);
   box-shadow: var(--main-shadow);
   border-radius: 10px;
@@ -51,7 +51,7 @@ margin-bottom: 20px;
 
   font-size: 18px;
   line-height: 1.8;
-  color: rgba(47, 47, 47, 0.6);
+  color: #FFDAB9;
 `;
 
 
