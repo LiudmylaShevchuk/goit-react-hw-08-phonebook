@@ -60,12 +60,12 @@ export const ContactForm = () => {
                 <Container>
                     <Wrapper>
                         <Label htmlFor="name">Name:</Label>
-                        <Input name="name" type="text" id="name" />
+                        <Input name="name" type="text" id="name" placeholder="Enter the name" />
                         <ErrorMsg name="name" component="div" />
                     </Wrapper>
                     <Wrapper>
                         <Label htmlFor="number">Number:</Label>
-                        <Input name="number" type="tel" id="number" />
+                        <Input name="number" type="tel" id="number" placeholder="Enter the number"/>
                         <ErrorMsg name="number" component="div" />
                     </Wrapper>
                     <Btn type="submit">Add contact</Btn>

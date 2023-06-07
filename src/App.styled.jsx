@@ -1,5 +1,15 @@
 import styled from "@emotion/styled";
 
+const size = {
+  mobile: '320px',
+  tablet: '768px',
+};
+
+export const device = {
+  mobile: `(min-width: ${size.mobile})`,
+  tablet: `(min-width: ${size.tablet})`,
+};
+
 export const Container = styled.div`
 margin: 40px auto;
   padding: 20px;
@@ -8,6 +18,10 @@ margin: 40px auto;
   box-shadow: var(--main-shadow);
   border-radius: 10px;
   `;
+
+  export const Wrapper = styled.div`
+  display: flex;
+`;
 
 
 export const Title = styled.h1`
@@ -30,3 +44,12 @@ margin-bottom: 20px;
   box-shadow: var(--main-shadow);
   border-radius: 10px;
   `;
+
+  export const Text = styled.p`
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  line-height: 1.8;
+  color: rgba(47, 47, 47, 0.6);
+`;
+
